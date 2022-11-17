@@ -9,6 +9,15 @@
         "padding_bottom": 0
       }
     },
+    "59ebf22e-5050-420e-99c2-21ba6da7f919": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<model-viewer alt=\"test\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/test.glb?v=1668545081\"  camera-controls touch-action=\"pan-y\"><\/model-viewer>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -330,6 +339,7 @@
   },
   "order": [
     "b65cf2d1-0b90-42e0-96c9-6dd6a00c9ed2",
+    "59ebf22e-5050-420e-99c2-21ba6da7f919",
     "image-with-text",
     "featured_collection",
     "slideshow",
