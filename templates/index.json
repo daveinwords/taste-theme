@@ -12,7 +12,7 @@
     "59ebf22e-5050-420e-99c2-21ba6da7f919": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<model-viewer alt=\"test\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/test.glb?v=1668545081\"  camera-controls touch-action=\"pan-y\"><\/model-viewer>",
+        "custom_liquid": "<model-viewer alt=\"test\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/test.glb?v=1668545081\" camera-controls touch-action=\"pan-y\"><\/model-viewer>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
