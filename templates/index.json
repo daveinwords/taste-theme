@@ -20,6 +20,7 @@
     },
     "59ebf22e-5050-420e-99c2-21ba6da7f919": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n.model-test{width: 100vw;\nheight: 100vh;}\n<\/style>\n\n<model-viewer class=\"model-test\" alt=\"test\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/test.glb?v=1668545081\" camera-controls><\/model-viewer>",
         "color_scheme": "background-1",
