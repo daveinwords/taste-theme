@@ -138,7 +138,7 @@
         "collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "videocolaboracion"
+            "collection": "mouse-1"
           }
         }
       },
@@ -197,6 +197,7 @@
     },
     "featured-product": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "vendor": {
           "type": "text",
