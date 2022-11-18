@@ -95,13 +95,13 @@
         "collection-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "audifonos"
           }
         },
         "collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "conectividad"
           }
         },
         "collection-2": {
