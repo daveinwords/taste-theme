@@ -1,1 +1,25 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "dbb0eeb4-d1bd-449e-8272-9d1f7ddeea49": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\na {\n  color: #000;\n  font-size: 1.4rem;\n}\n\n\/* nav-pos *\/\n.nav-pos {\n  background-color: #fff;\n  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);\n  width: 100%;\n}\n\n.nav-pos ul {\n  margin: 0;\n  padding: 0;\n  list-style: none;\n  overflow: hidden;\n  background-color: #fff;\n}\n\n.nav-pos li a {\n  display: block;\n  padding: 10px 10px;\n  border-right: 1px solid #f4f4f4;\n  text-decoration: none;\n}\n\n.nav-pos li a:hover,\n.nav-pos .menu-btn:hover {\n  background-color: #f4f4f4;\n}\n\n.nav-pos .logo {\n  display: block;\n  float: left;\n  font-size: 2em;\n  padding: 0px 20px;\n  text-decoration: none;\n}\n\n.logo > img {\n   width: 80px;\n margin-top: 10px;\n}\n\n\/* menu *\/\n\n.nav-pos .menu {\n  clear: both;\n  max-height: 0;\n  transition: max-height .2s ease-out;\n}\n\n\/* menu icon *\/\n\n.nav-pos .menu-icon {\n  cursor: pointer;\n  display: inline-block;\n  float: right;\n  position: relative;\n  user-select: none;\n}\n\n.nav-pos .menu-icon .navicon {\n  background: #333;\n  display: block;\n  height: 2px;\n  position: relative;\n  transition: background .2s ease-out;\n  width: 18px;\n}\n\n.nav-pos .menu-icon .navicon:before,\n.nav-pos .menu-icon .navicon:after {\n  background: #333;\n  content: '';\n  display: block;\n  height: 100%;\n  position: absolute;\n  transition: all .2s ease-out;\n  width: 100%;\n}\n\n.nav-pos .menu-icon .navicon:before {\n  top: 5px;\n}\n\n.nav-pos .menu-icon .navicon:after {\n  top: -5px;\n}\n\n\/* menu btn *\/\n\n.nav-pos .menu-btn {\n  display: none;\n}\n\n.nav-pos .menu-btn:checked ~ .menu {\n  max-height: 200px;\n}\n\n.nav-pos .menu-btn:checked ~ .menu-icon .navicon {\n  background: transparent;\n}\n\n.nav-pos .menu-btn:checked ~ .menu-icon .navicon:before {\n  transform: rotate(-45deg);\n}\n\n.nav-pos .menu-btn:checked ~ .menu-icon .navicon:after {\n  transform: rotate(45deg);\n}\n\n.nav-pos .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,\n.nav-pos .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {\n  top: 0;\n}\n\n\/* 48em = 768px *\/\n\n@media (min-width: 48em) {\n  .nav-pos li {\n    float: left;\n  }\n  .nav-pos li a {\n    padding: 20px 30px;\n  }\n  .nav-pos .menu {\n    clear: none;\n    float: right;\n    max-height: none;\n  }\n  .nav-pos .menu-icon {\n    display: none;\n  }\n}\n<\/style>\n\n<div class=\"nav-pos\">\n  <a href=\"\" class=\"logo\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/Asset_1.png?v=1665439282\"\/><\/a>\n  <ul class=\"menu\">\n    <li><a href=\"https:\/\/techzone.com.mx\/collections\/techzone-pos\">Productos<\/a><\/li>\n    <li><a href=\"#download\">Descargas<\/a><\/li>\n    <li><a href=\"#careers\">Sky Ticket<\/a><\/li>\n<li><a href=\"http:\/\/techzonepos.com.mx:9191\/blackTimbrador-2.0\/acceso.jsp\">Acceso<\/a><\/li>\n  <\/ul>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dbb0eeb4-d1bd-449e-8272-9d1f7ddeea49"
+  ]
+}
