@@ -15,8 +15,9 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Use a combination of images and text to share key product information or brand values.<\/p>",
+            "image": "shopify:\/\/shop_images\/linea-negra-icono-para-el-programa-algoritmo-acceso-y-uso-153072057-01.png",
+            "title": "Soluciones integrales",
+            "text": "<p><\/p><p>para tu hogar, oficina y negocio, cubriendo cada necesidad dependiendo tu entorno de trabajo.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -24,17 +25,19 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Use a combination of images and text to share key product information or brand values.<\/p>",
-            "link_label": "Learn more",
+            "image": "shopify:\/\/shop_images\/segur-01.png",
+            "title": "Manufactura premium",
+            "text": "<p>cubrimos cada necesidad de tu equipo de cómputo y demás periféricos, brindando siempre la mejor calidad en el desarrollo de nuevos productos.<\/p>",
+            "link_label": "",
             "link": ""
           }
         },
         "column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Use a combination of images and text to share key product information or brand values.<\/p>",
+            "image": "shopify:\/\/shop_images\/feli-01.png",
+            "title": "Amplio Catálogo",
+            "text": "<p>que abarca equipo como teclados, mouse, webcams, diademas, bocinas, mochilas, presentadores láser, candados entre muchos más.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -46,12 +49,12 @@
         "column-3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "square",
+        "image_width": "half",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
