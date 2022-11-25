@@ -168,14 +168,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "TechZone POS",
+            "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Conoce  TechZone POS, el equipo ideal para tener control de tus ventas e inventario. Equipos confiables y duraderos para la seguridad de tu negocio, crece el potencial de tu empresa\/negocio con nuestros equipos de alta calidad.<\/p>",
             "text_style": "body"
           }
         }
@@ -185,6 +185,7 @@
         "text"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/pos1.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
