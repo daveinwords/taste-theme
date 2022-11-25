@@ -30,8 +30,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
-        "heading_size": "h2",
+        "title": "Lanzamientos",
+        "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",
