@@ -3,7 +3,7 @@
     "59ebf22e-5050-420e-99c2-21ba6da7f919": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.model-test{width: 100vw;\nheight: 100vh;}\n<\/style>\n\n<model-viewer class=\"model-test\" alt=\"test\" auto-rotate src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/Dave.glb?v=1669322844\" ar environment-image=\"\"  camera-orbit=\"45deg 55deg 4m\" >\n<div style=\"position:absolute;top:40%; left: 32%;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/monolog.png?v=1665688698\" alt=\"logo\" width=\"600\">\n<\/div>\n<\/model-viewer>",
+        "custom_liquid": "<style>\n.model-test{width: 100vw;\nheight: 100vh;}\n<\/style>\n\n<model-viewer class=\"model-test\" alt=\"test\" auto-rotate src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/Dave.glb?v=1669322844\" ar environment-image=\"\"  camera-orbit=\"45deg 55deg 2m\" >\n<div style=\"position:absolute;top:40%; left: 32%;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/monolog.png?v=1665688698\" alt=\"logo\" width=\"600\">\n<\/div>\n<\/model-viewer>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
