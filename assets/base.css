@@ -311,7 +311,6 @@ html.no-js .no-js-hidden {
 
 /* Cambio efectuado el 15 nov 2022*/
 body {
-  background: #fff!important;
   background-attachment: fixed;
 }
 /*.color-background-1,
@@ -321,7 +320,11 @@ body {
 .color-accent-2 {
   color: rgba(var(--color-foreground), 0.75);
   background-color: rgb(var(--color-background));
-}*/
+*/
+
+.white-bg {
+  background: #fff;
+}
 
 .background-secondary {
   background-color: rgba(var(--color-foreground), 0.04);
