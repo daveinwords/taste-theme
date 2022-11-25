@@ -311,10 +311,6 @@ html.no-js .no-js-hidden {
 
 /* Cambio efectuado el 15 nov 2022*/
 body {
-  background-image: url("https://cdn.shopify.com/s/files/1/0428/3357/6102/files/bg-01_ea08c37f-7eb6-401e-a753-e08c8ea4b074.png?v=1669400892");
-  background-position: 50% 50%;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 /*.color-background-1,
