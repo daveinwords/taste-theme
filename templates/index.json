@@ -178,11 +178,19 @@
             "text": "<p>Conoce  TechZone POS, el equipo ideal para tener control de tus ventas e inventario. Equipos confiables y duraderos para la seguridad de tu negocio, crece el potencial de tu empresa\/negocio con nuestros equipos de alta calidad.<\/p>",
             "text_style": "body"
           }
+        },
+        "142f70bd-2fcf-41ac-acbf-898d5eb457ff": {
+          "type": "button",
+          "settings": {
+            "button_label": "Conocer Más",
+            "button_link": "shopify:\/\/pages\/pos"
+          }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "142f70bd-2fcf-41ac-acbf-898d5eb457ff"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pos1.jpg",
