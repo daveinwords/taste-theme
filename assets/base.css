@@ -2772,7 +2772,11 @@ details-disclosure > details {
 }
 
 .gradient {
-  background: #fff; /*rgb(var(--color-background))*/
+  background-image: url("https://cdn.shopify.com/s/files/1/0428/3357/6102/files/bg-01_ea08c37f-7eb6-401e-a753-e08c8ea4b074.png?v=1669400892");
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /*rgb(var(--color-background))*/
   /*background: var(--gradient-background);
   background-attachment: fixed;*/
 }
