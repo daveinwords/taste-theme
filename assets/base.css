@@ -315,6 +315,7 @@ body {
   background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 /*.color-background-1,
 .color-background-2,
