@@ -323,7 +323,7 @@ body {
 */
 
 .white-bg {
-  background: #fff;
+  background: #fff!important;
 }
 
 .background-secondary {
