@@ -105,11 +105,11 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_twitter_link": "https:\/\/twitter.com\/techzone_mx",
+    "social_facebook_link": "https:\/\/www.facebook.com\/TechZoneMx\/",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
-    "social_tiktok_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/techzonemx\/",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@techzonemx",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
@@ -164,41 +164,41 @@
           "link-list": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Contacto",
               "menu": "footer"
             }
           },
-          "text": {
-            "type": "text",
+          "1565e9f3-1b5f-4ad9-a5ec-d9c06bf3e9b9": {
+            "type": "link_list",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Politicas",
+              "menu": "politicas"
             }
           },
-          "image": {
-            "type": "image",
+          "df91a841-a7cb-43f2-82a1-6d6c777f0200": {
+            "type": "link_list",
             "settings": {
-              "image_width": 95,
-              "alignment": "right"
+              "heading": "Somos TechZone",
+              "menu": "footer"
             }
           }
         },
         "block_order": [
           "link-list",
-          "text",
-          "image"
+          "1565e9f3-1b5f-4ad9-a5ec-d9c06bf3e9b9",
+          "df91a841-a7cb-43f2-82a1-6d6c777f0200"
         ],
         "settings": {
-          "color_scheme": "accent-1",
+          "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "Únete a nuestra comunidad",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": false,
-          "margin_top": 48,
+          "payment_enable": true,
+          "margin_top": 0,
           "padding_top": 32,
-          "padding_bottom": 32
+          "padding_bottom": 12
         }
       },
       "main-password-header": {
