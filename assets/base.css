@@ -311,6 +311,8 @@ html.no-js .no-js-hidden {
 
 /* Cambio efectuado el 15 nov 2022*/
 body {
+
+  background: #fff;
   background-attachment: fixed;
 }
 /*.color-background-1,
