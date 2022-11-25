@@ -30,7 +30,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Coleccion 2023",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
