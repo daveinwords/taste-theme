@@ -175,18 +175,18 @@
               "menu": "politicas"
             }
           },
-          "df91a841-a7cb-43f2-82a1-6d6c777f0200": {
-            "type": "link_list",
+          "dcbb4eed-a658-46d4-82b5-361a626bab0a": {
+            "type": "text",
             "settings": {
               "heading": "Somos TechZone",
-              "menu": "footer"
+              "subtext": "<p>Presa Salinillas #370 Int 503, Irrigación, Miguel Hidalgo, CDMX.<\/p><p>CP 11000<\/p><p><\/p><p>Teléfonos de contacto:<\/p><p><strong>800·022·2509 <\/strong><\/p><p><strong>55·9148·5900 <\/strong><\/p><p><strong>55·1083·732<\/strong><\/p>"
             }
           }
         },
         "block_order": [
           "link-list",
           "1565e9f3-1b5f-4ad9-a5ec-d9c06bf3e9b9",
-          "df91a841-a7cb-43f2-82a1-6d6c777f0200"
+          "dcbb4eed-a658-46d4-82b5-361a626bab0a"
         ],
         "settings": {
           "color_scheme": "background-1",
