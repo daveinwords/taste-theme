@@ -13,13 +13,71 @@
       "settings": {
         "custom_liquid": "<style>\na {\n  color: #000;\n  font-size: 1.4rem;\n}\n\n\/* nav-pos *\/\n.nav-pos {\n  background-color: #fff;\n  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);\n  width: 100%;\n}\n\n.nav-pos ul {\n  margin: 0;\n  padding: 0;\n  list-style: none;\n  overflow: hidden;\n  background-color: #fff;\n}\n\n.nav-pos li a {\n  display: block;\n  padding: 10px 10px;\n  border-right: 1px solid #f4f4f4;\n  text-decoration: none;\n}\n\n.nav-pos li a:hover,\n.nav-pos .menu-btn:hover {\n  background-color: #f4f4f4;\n}\n\n.nav-pos .logo {\n  display: block;\n  float: left;\n  font-size: 2em;\n  padding: 0px 20px;\n  text-decoration: none;\n}\n\n.logo > img {\n   width: 80px;\n margin-top: 10px;\n}\n\n\/* menu *\/\n\n.nav-pos .menu {\n  clear: both;\n  max-height: 0;\n  transition: max-height .2s ease-out;\n}\n\n\/* menu icon *\/\n\n.nav-pos .menu-icon {\n  cursor: pointer;\n  display: inline-block;\n  float: right;\n  position: relative;\n  user-select: none;\n}\n\n.nav-pos .menu-icon .navicon {\n  background: #333;\n  display: block;\n  height: 2px;\n  position: relative;\n  transition: background .2s ease-out;\n  width: 18px;\n}\n\n.nav-pos .menu-icon .navicon:before,\n.nav-pos .menu-icon .navicon:after {\n  background: #333;\n  content: '';\n  display: block;\n  height: 100%;\n  position: absolute;\n  transition: all .2s ease-out;\n  width: 100%;\n}\n\n.nav-pos .menu-icon .navicon:before {\n  top: 5px;\n}\n\n.nav-pos .menu-icon .navicon:after {\n  top: -5px;\n}\n\n\/* menu btn *\/\n\n.nav-pos .menu-btn {\n  display: none;\n}\n\n.nav-pos .menu-btn:checked ~ .menu {\n  max-height: 200px;\n}\n\n.nav-pos .menu-btn:checked ~ .menu-icon .navicon {\n  background: transparent;\n}\n\n.nav-pos .menu-btn:checked ~ .menu-icon .navicon:before {\n  transform: rotate(-45deg);\n}\n\n.nav-pos .menu-btn:checked ~ .menu-icon .navicon:after {\n  transform: rotate(45deg);\n}\n\n.nav-pos .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,\n.nav-pos .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {\n  top: 0;\n}\n\n\/* 48em = 768px *\/\n\n@media (min-width: 48em) {\n  .nav-pos li {\n    float: left;\n  }\n  .nav-pos li a {\n    padding: 20px 30px;\n  }\n  .nav-pos .menu {\n    clear: none;\n    float: right;\n    max-height: none;\n  }\n  .nav-pos .menu-icon {\n    display: none;\n  }\n}\n<\/style>\n\n<div class=\"nav-pos\">\n  <a href=\"\" class=\"logo\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/Asset_1.png?v=1665439282\"\/><\/a>\n  <ul class=\"menu\">\n    <li><a href=\"https:\/\/techzone.com.mx\/collections\/techzone-pos\">Productos<\/a><\/li>\n    <li><a href=\"#download\">Descargas<\/a><\/li>\n    <li><a href=\"#careers\">Sky Ticket<\/a><\/li>\n<li><a href=\"http:\/\/techzonepos.com.mx:9191\/blackTimbrador-2.0\/acceso.jsp\">Acceso<\/a><\/li>\n  <\/ul>\n<\/div>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 68
+      }
+    },
+    "0c9ba2cd-3af6-4e47-a99b-2bc6bdb24d5d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\nvideo {  \n  width: 100%;\n}\n<\/style>\n\n\n<video poster=\"poster.jpg\" autoplay playsinline muted loop>\n\n<source src=\"myVideo.webm\" type=\"video\/webm\">\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2a481f305ba045cab48080f3cb82b2ad.mp4\">\n<\/video>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ca271e91-a22b-446e-ad26-dcf2988a728a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n@keyframes small {\n  0% {\n    transform: translate(0, 0);\n  }\n  50% {\n    transform: translate(0, 2rem);\n  }\n  100% {\n    transform: translate(0, 0);\n  }\n}\n@keyframes big {\n  0% {\n    transform: translate(0, 0);\n  }\n  50% {\n    transform: translate(0, -3rem);\n  }\n  100% {\n    transform: translate(0, 0);\n  }\n}\n.product {\n  position: relative;\n  display: flex;\n  width: 100%;\n  height: 90%;\n  z-index: 2;\n  padding: 0 2rem;\n}\n.product-photo {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  width: 52%;\n  height: 100%;\n}\n.product-photo img:first-child {\n  width: 44%;\n  height: auto;\n  margin-top: 10%;\n  transform: translate(0, 0);\n  animation-name: small;\n  animation-duration: 6s;\n  animation-iteration-count: infinite;\n  animation-timing-function: ease-in-out;\n}\n.product-photo img:last-child {\n  width: 48%;\n  height: atuo;\n  animation-name: big;\n  animation-duration: 6s;\n  animation-iteration-count: infinite;\n  animation-timing-function: ease-in-out;\n  animation-direction: reverse;\n}\n.product-detail {\n  display: flex;\n  flex-flow: column;\n  justify-content: center;\n  align-items: center;\n  width: 48%;\n  height: 100%;\n  text-align: center;\n  padding: 0 5%;\n  align-self: center;\n}\n.product__title {\n  font-size: 2rem;\n  margin-bottom: .5rem;\n}\n.product__price {\n  letter-spacing: 2px;\n  font-family: 'Montserrat', sans-serif;\n  margin-bottom: .8rem;\n}\n.product__subtitle {\n  font-family: 'Roboto', sans-serif;\n  font-weight: 700;\n  font-size: 1.2rem;\n  color: #383333;\n}\n.product__color form {\n  display: flex;\n}\n.product__color form fieldset {\n  position: relative;\n  width: 1.5rem;\n  height: 1.5rem;\n}\n.product__color form fieldset label {\n  display: block;\n  width: 100%;\n  height: 100%;\n  border-radius: 100%;\n  border: 0;\n  line-height: 1.6rem;\n}\n.product__color form fieldset label i {\n  opacity: 0;\n  transition: 0.32s;\n}\n.product__color form fieldset input {\n  position: absolute;\n  z-index: 3;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  opacity: 0;\n  cursor: pointer;\n}\n.product__color form fieldset input:checked + label i {\n  opacity: 1;\n}\n.product__color form fieldset:first-child {\n  margin-right: 1rem;\n}\n.product__color form fieldset:first-child label {\n  background: #B9B8B6;\n}\n.product__color form fieldset:first-child label i {\n  color: #513F35;\n}\n.product__color form fieldset:last-child label {\n  background: #513F35;\n}\n.product__color form fieldset:last-child label i {\n  color: #B9B8B6;\n}\n.product__button {\n  position: relative;\n  overflow: hidden;\n  margin-top: 2rem;\n  text-decoration: none;\n  text-transform: uppercase;\n  border-radius: 4px;\n  background: #F1EDE4;\n  display: block;\n  width: 8rem;\n  height: 2rem;\n  font-size: 0.75rem;\n  font-family: 'Montserrat', sans-serif;\n  color: #513F35;\n  transition: 0.32s;\n}\n.product__button span {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  line-height: 2rem;\n  transition: 0.32s;\n}\n.product__button span:last-child {\n  top: -4rem;\n  transition-delay: 0.32s;\n  color: #fff;\n}\n.product__button--success {\n  background: #00ff7f;\n}\n.product__button--success span:last-child {\n  top: 0;\n}\n.product__button--success span:first-child {\n  top: -4rem;\n}\n<\/style>\n\n<div class=\"product\">\n<div class=\"product-photo\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/TZBE302E-3.png?v=1665158667\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/3357\/6102\/files\/pos1.jpg?v=1665503672\">\n    <\/div>\n    <div class=\"product-detail\">\n<h1 class=\"product__title\">\nMás que una línea, una solución.\n<\/h1>\n<div class=\"product__price\">\nImpresora Térmica TZBE302E\n<\/div>\n<div class=\"product__subtitle\">\nSaca el máximo potencial a tu negocio con nuestras soluciones de POS, seguridad, comodidad y control en cada venta.\n<\/div>\n<a class=\"product__button\" href=\"https:\/\/techzone.com.mx\/collections\/impresoras-termicas-pos\">\n<span>Conocer Más<\/span>        <span>Success<\/span>\n      <\/a>\n    <\/div>\n  <\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "e4dc7aa0-4ecc-4f17-b7b2-f4c95c3c7086": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\nvideo {  \n  width: 100%;\n}\n<\/style>\n\n\n<h1>Caso de éxito<\/h1>\n<video poster=\"poster.jpg\" autoplay playsinline muted loop>\n\n<source src=\"myVideo.webm\" type=\"video\/webm\">\n\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/98d5ec62baa743d087d67dbc6df74b9d.mp4\">\n<\/video>",
+        "color_scheme": "background-1",
+        "padding_top": 4,
+        "padding_bottom": 0
+      }
+    },
+    "c9995666-ea4f-43c8-b1ed-04cd7d2bd6a0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Techzone POS",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "impresoras-termicas-pos",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "dbb0eeb4-d1bd-449e-8272-9d1f7ddeea49"
+    "dbb0eeb4-d1bd-449e-8272-9d1f7ddeea49",
+    "0c9ba2cd-3af6-4e47-a99b-2bc6bdb24d5d",
+    "ca271e91-a22b-446e-ad26-dcf2988a728a",
+    "e4dc7aa0-4ecc-4f17-b7b2-f4c95c3c7086",
+    "c9995666-ea4f-43c8-b1ed-04cd7d2bd6a0"
   ]
 }
