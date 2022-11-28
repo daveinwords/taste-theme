@@ -35,30 +35,21 @@
         "padding_bottom": 0
       }
     },
-    "e4dc7aa0-4ecc-4f17-b7b2-f4c95c3c7086": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\nvideo {  \n  width: 100%;\n}\n<\/style>\n\n\n<h1>Caso de éxito<\/h1>\n<video poster=\"poster.jpg\" autoplay playsinline muted loop>\n\n<source src=\"myVideo.webm\" type=\"video\/webm\">\n\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/98d5ec62baa743d087d67dbc6df74b9d.mp4\">\n<\/video>",
-        "color_scheme": "background-1",
-        "padding_top": 4,
-        "padding_bottom": 0
-      }
-    },
     "c9995666-ea4f-43c8-b1ed-04cd7d2bd6a0": {
       "type": "featured-collection",
       "settings": {
-        "title": "Techzone POS",
+        "title": "Impresoras Térmicas",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "techzone-pos",
+        "collection": "impresoras-termicas-pos",
         "products_to_show": 12,
         "columns_desktop": 4,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
@@ -70,6 +61,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e4dc7aa0-4ecc-4f17-b7b2-f4c95c3c7086": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\nvideo {  \n  width: 100%;\n}\n<\/style>\n\n\n<h1>Caso de éxito<\/h1>\n<video poster=\"poster.jpg\" autoplay playsinline muted loop>\n\n<source src=\"myVideo.webm\" type=\"video\/webm\">\n\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/98d5ec62baa743d087d67dbc6df74b9d.mp4\">\n<\/video>",
+        "color_scheme": "background-1",
+        "padding_top": 4,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -77,7 +77,7 @@
     "dbb0eeb4-d1bd-449e-8272-9d1f7ddeea49",
     "0c9ba2cd-3af6-4e47-a99b-2bc6bdb24d5d",
     "ca271e91-a22b-446e-ad26-dcf2988a728a",
-    "e4dc7aa0-4ecc-4f17-b7b2-f4c95c3c7086",
-    "c9995666-ea4f-43c8-b1ed-04cd7d2bd6a0"
+    "c9995666-ea4f-43c8-b1ed-04cd7d2bd6a0",
+    "e4dc7aa0-4ecc-4f17-b7b2-f4c95c3c7086"
   ]
 }
